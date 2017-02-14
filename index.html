@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1BBC9B','#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+        });
+    });
+    </script>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" style="height:880px;">
+            <h1>Clearkeyboard.js</h1>
+            <h2>First Responsive javascript webpage</h2>
+           
+        </div>
+        <div class="section">
+            <div class="slide">
+                <h1>Horizontal scrolling slides</h1>
+                <h2>Dogs love them too</h2>
+            </div>
+            <div class="slide">
+                <h1>Scoot Scoot!</h1>
+            </div>
+            <div class="slide">
+                <h1>End of the line</h1>
+                <h2>oh nooo</h2>
+            </div>
+        </div>
+        <div class="section">
+            <h1>Coming soon!</h1>
+            <h2>small javascript weather app</h2>
+        </div>
+    </div>
+</body>
+</html>
